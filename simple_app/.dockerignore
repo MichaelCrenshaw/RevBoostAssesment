@@ -1,0 +1,24 @@
+### Docker Files
+.dockerignore
+Dockerfile
+docker-compose.yml
+docker/
+
+### Git Files
+.gitignore
+.git
+
+### NuxtJS Files
+# Generated dirs
+dist
+.nuxt
+.nuxt-*
+.output
+.gen
+
+# Node dependencies
+node_modules
+
+# System files
+*.log
+

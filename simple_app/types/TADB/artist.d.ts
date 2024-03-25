@@ -1,0 +1,38 @@
+export interface Artist {
+    idArtist: number;
+    strArtist: string;
+    strArtistStripped?: string;
+    strArtistAlternate?: string;
+    strLabel: string;
+    idLabel: number;
+    intFormedYear?: number;
+    intBornYear?: number;
+    intDiedYear?: number;
+    strDisbanded?: string;
+    strStyle?: string;
+    strGenre?: string;
+    strMood?: string;
+    strWebsite?: string;
+    strFacebook?: string;
+    strTwitter?: string;
+    strBiographyEN?: string;
+    strGender?: string;
+    intMembers: number;
+    strCountry?: string;
+    strCountryCode?: string;
+    strArtistThumb?: string;
+    strArtistLogo?: string;
+    strArtistCutout?: string;
+    strArtistClearart?: string;
+    strArtistWideThumb?: string;
+    strArtistFanart?: string;
+    strArtistFanart2?: string;
+    strArtistFanart3?: string;
+    strArtistFanart4?: string;
+    strArtistBanner?: string;
+    strMusicBrainzID?: string;
+    strISNICode?: string;
+    strLastFMChart?: string;
+    intCharted: number;
+    strLocked?: 'unlocked' | 'locked';
+}

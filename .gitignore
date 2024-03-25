@@ -1,0 +1,23 @@
+### NuxtJS Files
+# Generated dirs
+**/dist
+**/.nuxt
+**/.nuxt-*
+**/.output
+**/.gen
+
+### Misc
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+# Node dependencies
+**/node_modules
+
+# System files
+*.log
+
+/archived/
+/simple_app/nuxt.config.js

@@ -1,0 +1,38 @@
+export interface Track {
+    idTrack: number;
+    idAlbum: number;
+    idArtist: number;
+    idLyric?: number;
+    strTrack: string;
+    strAlbum: string;
+    strArtist: string;
+    intDuration: number;
+    strGenre?: string;
+    strMood?: string;
+    strStyle?: string;
+    strTheme?: string;
+    strDescriptionEN?: string;
+    strTrackThumb?: string;
+    strTrackLyrics?: string;
+    strMusicVid?: string;
+    strMusicVidDirector?: string;
+    strMusicVidCompany?: string;
+    strMusicVidScreen1?: string;
+    strMusicVidScreen2?: string;
+    strMusicVidScreen3?: string;
+    intMusicVidViews: number;
+    intMusicVidLikes: number;
+    intMusicVidDislikes: number;
+    intMusicVidFavorites: number;
+    intMusicVidComments: number;
+    intTrackNumber?: number;
+    intLoved: number;
+    intScore: number;
+    intScoreVotes: number;
+    intTotalListeners: number;
+    intTotalPlays: number;
+    strMusicBrainzID?: string;
+    strMusicBrainzAlbumID?: string;
+    strMusicBrainzArtistID?: string;
+    strLocked?: 'unlocked' | 'locked';
+}
